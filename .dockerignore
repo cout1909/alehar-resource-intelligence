@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!requirements-lock.txt
+!app/
+!app/**
+!scripts/
+!scripts/**
+!data/
+!data/alehar_demo_lenders.json
+!data/public_demo_results.json
+**/__pycache__/
+**/*.pyc
+**/.env*
+**/*.db*

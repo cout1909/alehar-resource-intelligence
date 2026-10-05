@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "snapshot_at": "2026-10-05T09:12:33.787890+00:00",
+  "results": [
+    {
+      "id": 17,
+      "lender_id": 1,
+      "status": "VERIFIED",
+      "source_url": "https://www.hdfc.bank.in/",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.hdfc.bank.in/",
+        "content_type": "text/html;charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Personal Banking & Netbanking Services | HDFC Bank",
+        "meta_description": "",
+        "text_excerpt": "Banking that you can rely on Everyday banking, smart payments and support ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "hdfc.bank.in",
+        "fetched_domain": "hdfc.bank.in",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:10:43.656846Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 18,
+      "lender_id": 2,
+      "status": "VERIFIED",
+      "source_url": "https://www.icici.bank.in/",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.icici.bank.in/",
+        "content_type": "text/html;charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "ICICI Bank - Personal, Business, Corporate and NRI Banking Online",
+        "meta_description": "",
+        "text_excerpt": "Truth, Trust, Transparency Truth, Trust, Transparency Savings Account accounts Savings Account accounts ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "icici.bank.in",
+        "fetched_domain": "icici.bank.in",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:10:57.203945Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "success",
+      "ai_analysis": {
+        "identity_match": true,
+        "possible_mismatch": false,
+        "review_recommended": false,
+        "reason": "Name and domain match confirmed; no evidence of mismatch.",
+        "supported_findings": [
+          "Name matches stored record",
+          "Domain matches expected domain",
+          "Source intelligence confirms identity",
+          "Deterministic status VERIFIED"
+        ],
+        "uncertain_findings": []
+      },
+      "ai_extracted_data": {
+        "company_name": "ICICI Bank",
+        "company_description": "ICICI Bank offers personal and business banking services including savings accounts, loans, credit cards, insurance, and investment products.",
+        "entity_type": "Bank",
+        "products_or_services": [
+          "Savings Account",
+          "Cards",
+          "Loans",
+          "Deposits",
+          "Investment",
+          "Home Loan",
+          "Personal Loan",
+          "Car Loan",
+          "NRI",
+          "Business",
+          "Investments"
+        ],
+        "geographies": [
+          "India"
+        ],
+        "identity_evidence": [],
+        "uncertain_fields": [],
+        "source_summary": "ICICI Bank provides a range of banking services such as savings accounts, loans, credit cards, deposits, and investment products, with specific offers for home, personal, and car loans, and services for NRI and business customers."
+      },
+      "ai_error": null,
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 19,
+      "lender_id": 3,
+      "status": "VERIFIED",
+      "source_url": "https://www.sidbi.in",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.sidbi.in/en/",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Home - Small Industries Development Bank of India",
+        "meta_description": "",
+        "text_excerpt": "Mega Menu About us Overview Mission & Vision Board Of Directors Evolution ...",
+        "name_found": true,
+        "name_in_title_or_meta": false,
+        "expected_domain": "sidbi.in",
+        "fetched_domain": "sidbi.in",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 90,
+      "checked_at": "2026-10-05T09:11:10.378188Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "success",
+      "ai_analysis": {
+        "identity_match": true,
+        "possible_mismatch": false,
+        "review_recommended": false,
+        "reason": "Name and domain evidence confirm identity; no contradictory evidence found.",
+        "supported_findings": [
+          "Name found in source intelligence",
+          "Domain matches expected domain (sidbi.in)",
+          "Deterministic evidence indicates identity consistency"
+        ],
+        "uncertain_findings": []
+      },
+      "ai_extracted_data": {
+        "company_name": "Small Industries Development Bank of India",
+        "company_description": "Small Industries Development Bank of India is the principal financial institution focused on promoting, financing, and developing the MSME sector in India.",
+        "entity_type": "Financial institution",
+        "products_or_services": [
+          "MSME Loans",
+          "Other Loan Products",
+          "Institutional Finance",
+          "Refinance to Banks",
+          "Lending to NBFCs",
+          "Lending to MFIs",
+          "Government Programmes",
+          "PM Vishwakarma Scheme",
+          "PM SVANidhi Scheme",
+          "PLI Schemes",
+          "Fixed Deposit Scheme",
+          "Deep Discount Bonds"
+        ],
+        "geographies": [
+          "India",
+          "Chhattisgarh",
+          "Raipur"
+        ],
+        "identity_evidence": [],
+        "uncertain_fields": [],
+        "source_summary": "Homepage of Small Industries Development Bank of India featuring navigation menu, news about branch opening in Raipur, staff welfare gathering, keynote at Capital Connect 2026, and various loan and financial product offerings for MSMEs."
+      },
+      "ai_error": null,
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 20,
+      "lender_id": 4,
+      "status": "VERIFIED",
+      "source_url": "https://trifectacapital.in",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.trifectacapital.in/",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Trifecta Capital | Lifecycle Partner for India's New Economy",
+        "meta_description": "",
+        "text_excerpt": "ture debt? \u2726 At what stage should a startup raise venture debt? ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "trifectacapital.in",
+        "fetched_domain": "trifectacapital.in",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:11:25.979524Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 21,
+      "lender_id": 5,
+      "status": "VERIFIED",
+      "source_url": "https://www.innovencapital.com/",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.innovencapital.com/",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "InnoVen Capital",
+        "meta_description": "",
+        "text_excerpt": "led by visionary Indian entrepreneurs. Today, with offices across India, China and ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "innovencapital.com",
+        "fetched_domain": "innovencapital.com",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:11:40.221132Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 22,
+      "lender_id": 6,
+      "status": "REVIEW_REQUIRED",
+      "source_url": "https://www.northernarc.com/",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NAME_NOT_FOUND",
+          "message": "The full stored lender name could not be confidently located in the supplied source text. A shortened brand name may need human confirmation; this is not proof the record is wrong."
+        },
+        {
+          "type": "POSSIBLE_IDENTITY_MISMATCH",
+          "message": "The page identity could not be fully matched to the stored name; human review recommended."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.northernarc.com/",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Northern Arc",
+        "meta_description": "",
+        "text_excerpt": "17+ years of investing 140+ million lives impacted \u20b92.5+ trillion finance facilitated ...",
+        "name_found": false,
+        "name_in_title_or_meta": false,
+        "expected_domain": "northernarc.com",
+        "fetched_domain": "northernarc.com",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "REVIEW_REQUIRED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 30,
+      "checked_at": "2026-10-05T09:11:53.114609Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "PENDING",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 23,
+      "lender_id": 7,
+      "status": "VERIFIED",
+      "source_url": "https://www.piramalfinance.com",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://www.piramalfinance.com",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Home, Business, LAP and Personal Loans | Fast Approval \u2013 Piramal Finance",
+        "meta_description": "",
+        "text_excerpt": "Your Gold's Value with a Gold Loan Up to 750 Lakh Turn ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "piramalfinance.com",
+        "fetched_domain": "piramalfinance.com",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:12:05.389841Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 24,
+      "lender_id": 8,
+      "status": "VERIFIED",
+      "source_url": "https://www.redfortcapital.com",
+      "source_http_status": 200,
+      "source_reachable": true,
+      "detected_changes": [
+        {
+          "type": "NO_CHANGE",
+          "message": "Basic source identity appears consistent; financial facts were not evaluated."
+        }
+      ],
+      "evidence": {
+        "final_url": "https://redfortcapital.com/",
+        "content_type": "text/html; charset=utf-8",
+        "fetch_error_kind": null,
+        "title": "Red Fort Capital - Quick Business Loans in 7 Days",
+        "meta_description": "",
+        "text_excerpt": "lexible Terms and minimal documentation Collateral required : 2x- 3x FAQs Types ...",
+        "name_found": true,
+        "name_in_title_or_meta": true,
+        "expected_domain": "redfortcapital.com",
+        "fetched_domain": "redfortcapital.com",
+        "domain_matches": true,
+        "description_check": "explicit_identity_only",
+        "scope": "Basic page identity only; no financial facts verified.",
+        "score_version": "identity-v1",
+        "deterministic_status": "VERIFIED",
+        "snapshot_note": "Saved public check; excerpt shortened for publication. Visit the source to inspect current content."
+      },
+      "confidence_score": 100,
+      "checked_at": "2026-10-05T09:12:17.579155Z",
+      "error_message": null,
+      "ai_enabled": true,
+      "ai_provider": "groq",
+      "ai_model": "openai/gpt-oss-20b",
+      "ai_status": "unavailable",
+      "ai_analysis": null,
+      "ai_extracted_data": null,
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained.",
+      "review_status": "NOT_REQUIRED",
+      "review_note": null,
+      "reviewed_at": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-10-05T09:12:33.787890+00:00",
+  "records_monitored": 8,
+  "counts": {
+    "VERIFIED": 7,
+    "REVIEW_REQUIRED": 1
+  },
+  "ai_status_counts": {
+    "unavailable": 6,
+    "success": 2
+  },
+  "ai_fallbacks": 6,
+  "verify_all_delay_seconds": 10.0,
+  "ai_max_input_chars": 6000,
+  "ai_model": "openai/gpt-oss-20b",
+  "records": [
+    {
+      "name": "HDFC Bank",
+      "lender_id": 1,
+      "result_id": 17,
+      "status": "VERIFIED",
+      "ai_status": "unavailable",
+      "score": 100,
+      "checked_at": "2026-10-05T09:10:43.656846+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    },
+    {
+      "name": "ICICI Bank",
+      "lender_id": 2,
+      "result_id": 18,
+      "status": "VERIFIED",
+      "ai_status": "success",
+      "score": 100,
+      "checked_at": "2026-10-05T09:10:57.203945+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": null
+    },
+    {
+      "name": "SIDBI",
+      "lender_id": 3,
+      "result_id": 19,
+      "status": "VERIFIED",
+      "ai_status": "success",
+      "score": 90,
+      "checked_at": "2026-10-05T09:11:10.378188+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": null
+    },
+    {
+      "name": "Trifecta Capital",
+      "lender_id": 4,
+      "result_id": 20,
+      "status": "VERIFIED",
+      "ai_status": "unavailable",
+      "score": 100,
+      "checked_at": "2026-10-05T09:11:25.979524+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    },
+    {
+      "name": "InnoVen Capital",
+      "lender_id": 5,
+      "result_id": 21,
+      "status": "VERIFIED",
+      "ai_status": "unavailable",
+      "score": 100,
+      "checked_at": "2026-10-05T09:11:40.221132+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    },
+    {
+      "name": "Northern Arc Capital",
+      "lender_id": 6,
+      "result_id": 22,
+      "status": "REVIEW_REQUIRED",
+      "ai_status": "unavailable",
+      "score": 30,
+      "checked_at": "2026-10-05T09:11:53.114609+00:00",
+      "signals": [
+        "NAME_NOT_FOUND",
+        "POSSIBLE_IDENTITY_MISMATCH"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    },
+    {
+      "name": "Piramal Finance",
+      "lender_id": 7,
+      "result_id": 23,
+      "status": "VERIFIED",
+      "ai_status": "unavailable",
+      "score": 100,
+      "checked_at": "2026-10-05T09:12:05.389841+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    },
+    {
+      "name": "Red Fort Capital",
+      "lender_id": 8,
+      "result_id": 24,
+      "status": "VERIFIED",
+      "ai_status": "unavailable",
+      "score": 100,
+      "checked_at": "2026-10-05T09:12:17.579155+00:00",
+      "signals": [
+        "NO_CHANGE"
+      ],
+      "ai_error": "AI output could not be validated against the required structure or source evidence. Deterministic verification was retained."
+    }
+  ]
+}

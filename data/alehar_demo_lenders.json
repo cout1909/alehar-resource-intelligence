@@ -1,0 +1,98 @@
+[
+  {
+    "name": "HDFC Bank",
+    "country": "India",
+    "lender_type": "Bank",
+    "description": null,
+    "website_url": "https://www.hdfc.bank.in/",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.hdfc.bank.in/",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.395191+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "ICICI Bank",
+    "country": "India",
+    "lender_type": "Bank",
+    "description": null,
+    "website_url": "https://www.icici.bank.in/",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.icici.bank.in/",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.395191+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "SIDBI",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://www.sidbi.in",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.sidbi.in",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.396200+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "Trifecta Capital",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://trifectacapital.in",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://trifectacapital.in",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.396200+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "InnoVen Capital",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://www.innovencapital.com/",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.innovencapital.com/",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.397197+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "Northern Arc Capital",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://www.northernarc.com/",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.northernarc.com/",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.397197+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "Piramal Finance",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://www.piramalfinance.com",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.piramalfinance.com",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.397197+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  },
+  {
+    "name": "Red Fort Capital",
+    "country": "India",
+    "lender_type": "Non-Bank",
+    "description": null,
+    "website_url": "https://www.redfortcapital.com",
+    "alehar_url": "https://www.alehar.com/resources/tools/lenders/IND",
+    "verification_source_url": "https://www.redfortcapital.com",
+    "source_type": "OFFICIAL_WEBSITE",
+    "retrieved_at": "2026-10-05T08:11:21.398197+00:00",
+    "source_notes": "Name, India directory placement, website and directory category observed on the linked Alehar public page. Category is Alehar directory grouping, not independently verified regulatory status. Description, loan amounts, rates, products and financial metrics are deliberately omitted. Official website is used only for bounded identity checks."
+  }
+]

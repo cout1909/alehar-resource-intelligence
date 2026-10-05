@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: alehar-resource-intelligence
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        value: sqlite:////tmp/alehar-public-demo-v1.db
+      - key: PUBLIC_DEMO_MODE
+        value: "true"
+      - key: PUBLIC_DEMO_SNAPSHOT
+        value: "true"
+      - key: ENABLE_DOCS
+        value: "false"
+      - key: SCHEDULER_ENABLED
+        value: "false"
+      - key: AI_ENABLED
+        value: "false"
+      - key: AI_PROVIDER
+        value: groq
+      - key: AI_MODEL
+        value: openai/gpt-oss-20b
+      - key: ALLOWED_ORIGINS
+        sync: false
