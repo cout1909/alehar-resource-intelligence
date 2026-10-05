@@ -4,7 +4,7 @@ Independent AI-assisted proof-of-concept for monitoring and verifying public bus
 
 The system compares curated records against trusted public sources, performs deterministic verification, uses AI for semantic interpretation, and routes uncertain findings to human review.
 
-**Live demo:** Render Free + Vercel deployment in progress. **GitHub:** [cout1909/alehar-resource-intelligence](https://github.com/cout1909/alehar-resource-intelligence). **Video:** Pending recording.
+**Live demo:** [alehar-resource-intelligence.vercel.app](https://alehar-resource-intelligence.vercel.app). **Backend health:** [Render /health](https://alehar-resource-intelligence.onrender.com/health). **GitHub:** [cout1909/alehar-resource-intelligence](https://github.com/cout1909/alehar-resource-intelligence). **Video:** Pending recording.
 
 ![Dashboard with public-source verification and human review](docs/screenshots/dashboard.png)
 
@@ -142,13 +142,13 @@ npm.cmd run test:e2e
 Remove-Item Env:PUBLIC_BROWSER_TEST
 ```
 
-Playwright uses installed Microsoft Edge on Windows. On Linux, install Chromium with `npx playwright install --with-deps chromium`. The prepared GitHub workflow runs backend/build/browser checks; it has not run on GitHub yet and does not deploy anything.
+Playwright uses installed Microsoft Edge on Windows. On Linux, install Chromium with `npx playwright install --with-deps chromium`. The GitHub workflow runs backend/build/browser checks and passed remotely. It does not deploy anything.
 
 ## Docker and deployment
 
 The [Dockerfile](Dockerfile) uses Python slim, a non-root user, pinned dependencies, a healthcheck, one worker and safe public-demo defaults. The frontend builds as static assets with SPA fallback configuration for Vercel/Netlify.
 
-**DOCKER LOCAL VALIDATION BLOCKED:** Docker Desktop's engine was unavailable. Container build/run has not been validated. See [deployment instructions](docs/DEPLOYMENT.md) for commands, volume ownership, SQLite persistence, secret settings, rollback and the deployment acceptance checklist.
+Render successfully built and runs the Docker image. Production health, saved data, exact CORS, read-only guards, restart recovery and fresh incognito browser checks passed on 5 October 2026. Local Docker Desktop validation remains unavailable. See [deployment instructions](docs/DEPLOYMENT.md) for configuration and repeatable production checks.
 
 The owner approved a public GitHub repository, Render Free backend and Vercel frontend with a zero-cost budget. No paid disk or database is provisioned. `render.yaml` pins `plan: free` and enables `PUBLIC_DEMO_SNAPSHOT=true`: startup restores the eight curated records and bundled dated public findings into disposable SQLite without external calls. Restarting or losing the filesystem does not lose displayable demo results. Local persistence is unchanged because this option defaults to false.
 
@@ -165,7 +165,7 @@ The owner approved a public GitHub repository, Render Free backend and Vercel fr
 
 Only eight curated lenders and bounded page-identity signals are covered. Sites can block automated access, change content or require JavaScript. AI output can be inconsistent and provider quotas can trigger fallback. Omitted fields are not verified. Exact name matching can conservatively flag legitimate shortened brands. Historical AI output remains fallible even when source quotes passed validation. No financial recommendation or correctness guarantee is provided.
 
-The public deployment uses a reproducible snapshot instead of persistent storage. It displays historical checks, not continuous live monitoring. Render Free can sleep and cold-start; the UI allows up to 90 seconds for reads and explains the wait. Container/cloud validation, live URLs and video recording remain pending.
+The public deployment uses a reproducible snapshot instead of persistent storage. It displays historical checks, not continuous live monitoring. Render Free can sleep and cold-start; the UI allows up to 90 seconds for reads and explains the wait. Open the demo and wait for data to load just before sharing it. Video recording remains pending.
 
 Login, reviewer roles, attributed audit logs, approved/private datasets and approved updates are **future pilot features only after Alehar expresses interest**. Events, technology directories, notifications and reporting come only after pilot feedback. See [future pilot scope](docs/FUTURE_PILOT.md).
 

@@ -1,6 +1,6 @@
-# Phase 3A local validation
+# Phase 3 validation
 
-Validated 5 October 2026. Local preparation is complete subject to the documented Docker-engine limitation. **Full Phase 3 is not complete: free deployment has been approved; external setup is in progress.**
+Validated 5 October 2026. Public GitHub, Render Free backend and Vercel frontend are deployed. Production API, anonymous incognito browsing, mobile layout and restart recovery passed. Video recording remains pending; local Docker Desktop remains unavailable.
 
 ## Baseline and final checks
 
@@ -16,8 +16,11 @@ Validated 5 October 2026. Local preparation is complete subject to the documente
 | Real-data browser check | Eight curated records with provenance; actual pages captured; no page errors or mutations during browsing; mobile fits viewport |
 | Static Python check | Ruff passed |
 | Publication scan | No matching credentials in eligible files or browser assets; required ignore rules present |
-| Docker | CLI available; Docker Desktop Linux engine unavailable; image build/run not performed |
-| GitHub CI | Prepared, not executed remotely |
+| Docker | Render cloud image build and startup passed; local Docker Desktop unavailable |
+| GitHub CI | Backend/build/browser workflow passed remotely |
+| Production API | Health, eight saved results, exact CORS, hidden docs, and all four mutation guards passed |
+| Incognito browser | Fresh Edge context without inherited cookies/login: routes, provenance, flagged explanation, disabled controls and mobile layout passed |
+| Render restart | All eight saved results identical before and after restart |
 
 ## Final real-source run
 
@@ -55,7 +58,7 @@ The frontend shares concurrent reads and does not initiate verification while br
 
 ## Outstanding external work
 
-**DOCKER LOCAL VALIDATION BLOCKED** until the Docker Desktop engine is available. Container configuration is prepared but unvalidated. Deployment and persistence must be tested on the selected provider after approval. Provider accounts, repository destination, domain and database decisions are still required. Video recording/upload is pending; draft scripts and screenshots are ready. No outreach was sent.
+Cloud deployment and container validation are complete. Local Docker Desktop validation remains blocked by the unavailable local engine. Video recording/upload is pending; draft scripts and production screenshots are ready. No outreach was sent.
 
 ## Free-hosting preparation
 

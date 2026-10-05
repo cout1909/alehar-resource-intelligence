@@ -2,6 +2,24 @@
 
 Target: public GitHub `cout1909/alehar-resource-intelligence`, Render Free Web Service, Vercel frontend, provider-generated URLs. Budget: zero. No paid disk or managed database is needed or authorized.
 
+## Live deployment
+
+- Frontend: https://alehar-resource-intelligence.vercel.app
+- Backend health: https://alehar-resource-intelligence.onrender.com/health
+- Repository: https://github.com/cout1909/alehar-resource-intelligence
+
+Deployed and tested on 5 October 2026. Render uses the Free plan in Singapore. Vercel production stores `VITE_API_BASE_URL=https://alehar-resource-intelligence.onrender.com`; Render allows exactly `https://alehar-resource-intelligence.vercel.app`. The production domain is accessible anonymously. Backend logs and frontend build logs were inspected. Eight saved results remained identical after a Render restart. Production screenshots were captured in a fresh browser context.
+
+To repeat production checks from `frontend` in PowerShell:
+
+```powershell
+$env:DEMO_API_URL='https://alehar-resource-intelligence.onrender.com'
+$env:DEMO_UI_URL='https://alehar-resource-intelligence.vercel.app'
+node e2e/production-smoke.mjs
+```
+
+The smoke test asserts read-only mode before attempting protected verification/review requests. Those requests must return 403 and preserve saved results. It also checks health, CORS, disabled docs, fresh incognito browsing, direct detail routes and disabled controls. `node e2e/capture-demo.mjs` additionally captures all main routes and checks mobile fit. Frontend deployments currently use the Vercel CLI from `frontend`; Render automatically deploys GitHub main.
+
 ## Safe re-creatable state
 
 Render's [free filesystem is ephemeral](https://render.com/docs/free). `PUBLIC_DEMO_SNAPSHOT=true` restores `data/alehar_demo_lenders.json` and `data/public_demo_results.json` into disposable SQLite on startup. The snapshot contains eight real public checks (7 verified, 1 review required), dated evidence, and successful AI or fallback explanations. It contains no review notes, credentials or private data. It is clearly labeled as a saved snapshot in the UI.
